@@ -2,3 +2,13 @@
   margin: 0;
   padding: 0;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-right: 5px;
+
+  &:hover {
+    color: salmon;
+  }
+}
