@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Route,
   Switch
 } from 'react-router-dom';
@@ -12,7 +12,7 @@ import './style.css';
 
 export default function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <>
         <Header />
         <Switch>
@@ -21,6 +21,6 @@ export default function App() {
           <Route path="/yellow" component={Yellow} />
         </Switch>
       </>
-    </Router>
+    </BrowserRouter>
   );
 }
