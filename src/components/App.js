@@ -11,5 +11,11 @@ import Header from './Header';
 import './style.css';
 
 export default function App() {
-  return <Yellow />;
+  return (
+    <Router>
+      <>
+        <Header />
+      </>
+    </Router>
+  )
 }
